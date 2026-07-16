@@ -9,8 +9,8 @@ st.write("Business Travel Carbon Prediction")
 
 
 # Load model and columns
-model = joblib.load("xgboost_model.pkl")
-columns = joblib.load("columns.pkl")
+model = joblib.load("Carbonix/xgboost_model.pkl")
+columns = joblib.load("Carbonix/columns.pkl")
 
 st.success("Model loaded successfully!")
 
