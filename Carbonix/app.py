@@ -14,6 +14,7 @@ columns = joblib.load("Carbonix/columns.pkl")
 st.success("Model loaded successfully!")
 
 st.subheader("Enter Travel Details")
+st.write(type(model))
 
 # User Inputs
 distance = st.number_input(
